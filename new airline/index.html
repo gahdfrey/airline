@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLEVENTH AIRLINE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;600;800&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!---navbar--->
+    <nav class="nav_bar">
+        <div class="nav__container">
+            <a href="index.html" class="logo"><h1>D'LEVENTH AIRLINE</h1></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#About" class="nav-link">PLAN TRAVEL</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Offers" class="nav-link">TRAVEL INFORMATION</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Explore" class="nav-link">DAADVANTAGE</a>
+                </li>
+                <li class="nav-item">
+                    <select name="language" class="select nav-link">
+                        <option value="ipod">ENGLISH</option>
+                        <option value="radio">SPANISH</option>
+                        <option value="computer">FRENCH</option>
+                        <option value="mobile phone">ITALIAN</option>
+                    </select>
+                    <!---
+                    <a href="#Contact" class="nav-link">ENGLISH</a>-->
+                </li>
+                <div class="nav__btns">
+                    <a href="" class="btn nav_btn">LOG IN</a>
+                </div>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <!--header-->
+    <div class="banner">
+        <div class="overlay">
+        <div class="container">
+        <div class="content">
+            <div class="contents">
+                <h1>Travel with peace of mind</h1>
+        <p>Visit your favourite countries in happiness and get ticket at affordable prices</p>
+        <input type="search" placeholder="search DAA.com" minlength="4" maxlength="20"> <button class="banner-btn">SEARCH</button>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <form action="" method="POST" class="card">
+        <div class="card__info">
+            <h2>Book Flight</h2>
+            <h2>Manage Trips/ Check-in</h2>
+            <h2>Flight Status</h2>
+        </div>
+        <div class="Passenger__form">
+            <div class="box">
+                <label><input type="radio" name="trip" value="round trip" checked= />Round Up</label>
+                <p>From</p>
+                <label><input type="search" placeholder="City or airport" autofocus></label>
+                <p>Class</p>
+                <select name="Economy" class="select">
+                    <option value="ipod">Economy</option>
+                    <option value="radio">Business</option>
+                    <option value="computer">First</option>
+                    <option value="mobile phone">Hang Ontop</option>
+                </select>
+            </div>
+            <div class="box">
+                <label><input type="radio" name="trip" value="round trip"/>One way</label>
+                <p>To</p>
+               <label> <input type="search" placeholder="City or airport"></label>
+                <p>Depature date</p>
+                <input type="date" name="date" for="date" id="date">
+            </div>
+            <div class="box">
+               <label> <input type="radio" name="trip" value="round trip"/>Redeem miles</label>
+                <p>No of Passengers</p>
+                <select name="Economy" class="select">
+                    <option value="ipod">1</option>
+                    <option value="radio">2</option>
+                    <option value="computer">3</option>
+                    <option value="mobile phone">4</option>
+                </select>
+                <p>Return date</p>
+                <label><input type="date"></label>
+            </div>
+        </div>
+        <button type="submit" name="submit" value="BOOK FLIGHT" class="form__btn">BOOK FLIGHT</button>
+</form>
+<!--about-->
+<section class="container">
+    <div class="about">
+        <h1 class="content2">Why fly with us?</h1>
+    </div>
+    <div class="about-row">
+        <div class="aboutcard">
+            <div class="user">
+                <div class="user-info">
+                    <h4>Unbeatable Deals</h4>
+                    <p>Experience more for less with our exclusive deals and packages</p>
+                </div>
+            </div>
+        </div>
+        <div class="aboutcard">
+            <div class="user">
+                <div class="user-info">
+                    <h4>Most Trusted Platform</h4>
+                    <p>We've sold over 20 million+ tickets and rated as "Excellent" on TrustPilot</p>
+                </div>
+            </div>
+        </div>
+        <div class="aboutcard">
+            <div class="user">
+                <div class="user-info">
+                    <h4>Cancellable Tickets</h4>
+                    <p>Stay flexible with free cancellation options on your tickets</p>
+                </div>
+            </div>
+        </div>
+        <div class="aboutcard">
+            <div class="user">
+                <div class="user-info">
+                    <h4>Security Guaranteed</h4>
+                    <p>Your security is absolutely guaranteed with American Airline</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="about">
+        <h1 class="content2">Today's Offers</h1>
+    </div>
+    <div class="cribs">
+        <div class="crib_card">
+            <div class="crib_image">
+                <img src="lagos.JPG" alt="">
+            </div>
+            <div class="crib_info">
+                    <h3>Trip to Nigeria</h3>
+                    <p>From seasonal deals to early-bird discounts,find more ways to culture and save when you book them! 
+                    </p>
+                    <a href="" class="btn">See Deal</a>
+            </div>
+        </div>
+        <div class="crib_card">
+            <div class="crib_image">
+                <img src="rome.JPG" alt="">
+            </div>
+            <div class="crib_info">
+                    <h3>Trip to Italy</h3>
+                    <p>From seasonal deals to early-bird discounts,find more ways to culture and save when you book them! 
+                    </p>
+                    <a href="" class="btn">See Deal</a>
+            </div>
+        </div>
+        <div class="crib_card">
+            <div class="crib_image">
+                <img src="new york.JPG" alt="">
+            </div>
+            <div class="crib_info">
+                    <h3>Trip to America</h3>
+                    <p>From seasonal deals to early-bird discounts,find more ways to culture and save when you book them! 
+                    </p>
+                    <a href="" class="btn">See Deal</a>
+            </div>
+        </div>
+</section>
+<section class="featurenew2">
+    <div class="feature-box2 edit">
+            <a href="" class="btn">VIEW ALL DEALS</a>
+    </div>
+</section>
+<section class="container">
+    <div class="commitment">
+        <div class="crib_image2">
+            <img src="airplane.JPG" alt="">
+        </div>
+        <div class="commitment_right">
+            <h2>Dleventh Airline Commitment</h2>
+            <p>We've enhanced our cleaning procedures and added new protocols at every step to reduce risks when you fly.
+                American airlines cares about your health and everything that belongs to you.We are here to give you the 
+                best Commitment to your flight.
+                We've enhanced our cleaning procedures and added new protocols at every step to reduce risks when you fly.
+                American airlines cares about your health and everything that belongs to you.We are here to give you the 
+                best Commitment to your flight.
+            </p>
+            <p>We've enhanced our cleaning procedures and added new protocols at every step to reduce risks when you fly.
+                American airlines cares about your health and everything that belongs to you.We are here to give you the 
+                best Commitment to your flight.
+                We've enhanced our cleaning procedures and added new protocols at every step to reduce risks when you fly.
+                American airlines cares about your health and everything that belongs to you.We are here to give you the 
+                best Commitment to your flight.
+            </p>
+            <a href="" class="btn">SEE COMMITMENT</a>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="download">
+    <div class="download_content">
+        <div class="content_text">
+        <h1>Download the American Airline app for easy access to travel</h1>
+        <p>Make your next experience one smooth ride with the american airline app.use it to 
+            discover<br> your destination,plan on the go,store your tickets offline and enjoy exclusive,app-user perks.
+        </p>
+    </div>
+        <div class="download_image">
+            <img src="1.PNG" alt="">
+        </div>
+</div>
+</section>
+<section class="container">
+    <div class="about">
+        <h1 class="content2">Tours and Activities</h1>
+    </div>
+        <div class="image-grid">
+            <div class="item item1">
+                    <img src="wait1.JPG" alt="">
+                </div>
+                <div class="item size">
+                    <img src="wait2.JPG" alt="">
+                </div>
+                <div class="item size">
+                    <img src="wait3.JPG" alt="">
+                </div>
+                <div class="item size">
+                    <img src="wait4.JPG" alt="">
+                </div>
+                <div class="item size">
+                    <img src="wait5.JPG" alt="">
+                </div>
+            </div>
+</section>
+<section class="container">
+    <div class="about">
+        <h1 class="content2">Travel News</h1>
+    </div>
+    <div class="cribs">
+        <div class="crib_card">
+            <div class="crib_image">
+                <img src="france.JPG" alt="">
+            </div>
+            <div class="crib_info">
+                    <h3>Travel Benefits</h3>
+                    <p>From seasonal deals to early-bird discounts,find more ways to culture and save when you book them! 
+                    </p>
+                    <a href="" class="btn">See Deal</a>
+            </div>
+        </div>
+        <div class="crib_card">
+            <div class="crib_image">
+                <img src="china.JPG" alt="">
+            </div>
+            <div class="crib_info">
+                    <h3>China best places</h3>
+                    <p>From seasonal deals to early-bird discounts,find more ways to culture and save when you book them! 
+                    </p>
+                    <a href="" class="btn">See Deal</a>
+            </div>
+        </div>
+        <div class="crib_card">
+            <div class="crib_image">
+                <img src="germany.JPG" alt="">
+            </div>
+            <div class="crib_info">
+                    <h3>City of Munich</h3>
+                    <p>From seasonal deals to early-bird discounts,find more ways to culture and save when you book them! 
+                    </p>
+                    <a href="" class="btn">See Deal</a>
+            </div>
+        </div>
+</section>
+<section class="banner-end">
+    <div class="banner_content">
+    <ul class="banner-list">
+        <h2>About American</h2>
+        <li>About US</li>
+        <li>Careers</li>
+        <li>Investor Relations</li>
+        <li>Newsroom</li>
+        <li>Legal, privacy, copyright</li>
+        <li>Environmental,social and governance</li>
+        <li>Combating human trafficking</li>
+    </ul>
+    <ul class="banner-list">
+        <h2>Help</h2>
+        <li>Contact American</li>
+        <li>Receipts and refund</li>
+        <li>FAQs</li>
+        <li>Agency reference</li>
+        <li>Cargo</li>
+        <li>Bags and optional fees</li>
+        <li>Conditions of carriage</li>
+    </ul>
+    <ul class="banner-list">
+        <h2>Extras</h2>
+        <li>Business programs</li>
+        <li>Gift Card</li>
+        <li>Investor Relations</li>
+        <li>American Airline credit card</li>
+        <li>Trip insurance</li>
+    </ul>
+</div>
+</section>
+<div class="end">
+    <p>Developed by D'LEVENTH &copy; 2022</p>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
